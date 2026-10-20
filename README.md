@@ -16,7 +16,7 @@ Check file integrity after `prepare` and `fetch` with `sha256sum -c data_checksu
 No patient data are stored in this repository.
 
 ## 3. Run everything
-    python dx_pipeline.py all          # about 2.5 hours on one CPU
+    python dx_pipeline.py all          
 
 Or step by step:
 
