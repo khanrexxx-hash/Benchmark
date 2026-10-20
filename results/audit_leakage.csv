@@ -1,0 +1,9 @@
+dataset,variable,single_variable_auc
+Cervical,Dx:Cancer,0.5470734744707348
+Cervical,Dx:CIN,0.5235367372353673
+Cervical,Dx:HPV,0.5470734744707348
+Cervical,Dx,0.5530510585305105
+Cervical,Hinselmann,0.7210460772104608
+Cervical,Schiller,0.9201743462017433
+Cervical,Citology,0.6474470734744706
+Mammography,BI-RADS,0.8129734103035074
