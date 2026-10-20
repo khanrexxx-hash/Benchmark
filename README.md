@@ -17,7 +17,7 @@ Published test prices (Turney 1995, Ontario fee schedule): Hepatitis, Heart, Pim
 dx_pipeline.py + mammographic_mass.zip, cervical_cancer_risk_factors.zip, ckd.zip, hepatitis.zip
 
 ## 3. Run
-    python dx_pipeline.py all          # everything (about 100 minutes on one CPU)
+    python dx_pipeline.py all          
 
 Step by step:
     python dx_pipeline.py prepare                  # unzip the four UCI archives into ./data
