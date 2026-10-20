@@ -1,4 +1,0 @@
-{"name": "DemoCohort", "target": "class", "positive": "ckd",
- "units": {"history": ["age", "htn"], "dipstick": ["sg", "al"], "creatinine": ["sc"]},
- "costs": {"history": [1.0, 1.0], "dipstick": [2.0, 2.0], "creatinine": [7.27, 5.17]},
- "groups": {"creatinine": "blood"}}
