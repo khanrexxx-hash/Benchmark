@@ -1,44 +1,5 @@
 #!/usr/bin/env python3
-"""
-dx_pipeline.py  -  ONE-FILE reproduction of the whole study (revised manuscript)
-=====================================================================================
-Original pipeline (unchanged) + revision analyses requested by the reviewer (section at the end of this file).
-Missingness-shortcut audit + cost-aware sequential diagnostic testing with
-risk-controlled (Learn-then-Test) stopping on four UCI clinical datasets.
 
-USAGE (run from the folder that contains this file)
-  python dx_pipeline.py prepare            # unzip the 4 dataset zips into ./data
-  python dx_pipeline.py audit              # Part 1 audit            (~2.5 min)
-  python dx_pipeline.py seq Hepatitis 4    # Part 2, one dataset, 4 CV repeats
-  python dx_pipeline.py seq CKD 4
-  python dx_pipeline.py seq Mammography 4
-  python dx_pipeline.py seq Cervical 4
-  python dx_pipeline.py report             # tables (results/) + figures 2-6
-  python dx_pipeline.py flowchart          # figure 1
-  python dx_pipeline.py fetch              # download 4 public datasets (PBC, Wisconsin biopsy, Cleveland heart, Pima)
-  python dx_pipeline.py seq PBC 4          # also: seq Biopsy 4, seq Heart 4, seq Pima 4
-  python dx_pipeline.py scenarios          # cost-scenario robustness runs (uniform / lab_heavy / invert / invasive_30)
-  python dx_pipeline.py transport          # hepatitis -> PBC cross-cohort transport test of the certificate
-  python dx_pipeline.py custom my.csv cfg.json 4   # YOUR OWN hospital data + YOUR OWN costs (see README)
-  python dx_pipeline.py all                # everything, including the revision analyses (~150 min, 1 CPU)
-
-REVISION COMMANDS (reviewer round 1; outputs in results/revision/)
-  python dx_pipeline.py revision           # Tables 4, 5, 6, A1 (formatted copies in results/revision/tables/): corrected t-tests, Holm, held-out risk and class-specific
-                                           #   errors, certification counts, meta-analysis sensitivity   (~15 s)
-  python dx_pipeline.py labelx CKD 4       # re-run CKD without dipstick + creatinine            (~25 min)
-  python dx_pipeline.py labelx Cervical 4  # re-run Cervical without cytology, colposcopy, Schiller (~25 min)
-  python dx_pipeline.py labelx_summary     # Section 4.5 numbers + pooled re-analysis with the reduced datasets
-  python dx_pipeline.py costmap            # cost_unit_map.csv (every unit, price, group, provenance)
-  python dx_pipeline.py checksums          # data_checksums_sha256.txt
-  python dx_pipeline.py revision_all       # all five revision commands above (needs `seq` results for all 8 datasets)
-  python dx_pipeline.py seq Hepatitis 1 1  # quick smoke test (1 repeat, 1 split)
-
-Expected data layout in ./data (created by `prepare`):
-  hepatitis.data, costs/*, ckd/chronic_kidney_disease_full.arff,
-  mammographic_masses.data, risk_factors_cervical_cancer.csv
-Place mammographic_mass.zip, cervical_cancer_risk_factors.zip, ckd.zip and
-hepatitis.zip next to this file (or in ./data) before running `prepare`.
-"""
 from __future__ import annotations
 import sys, json, time, pickle, warnings, zipfile, copy, urllib.request
 from pathlib import Path
