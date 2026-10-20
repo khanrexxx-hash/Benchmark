@@ -1,0 +1,989 @@
+{
+ "paired": {
+  "Hepatitis": {
+   "static": {
+    "median_diff": 0.44806451612903153,
+    "mean_diff": 0.5344516129032255,
+    "adaptive_cheaper_pct": 35.0,
+    "wilcoxon_p": 0.33413808059574546
+   },
+   "eg2": {
+    "median_diff": 0.033225806451611106,
+    "mean_diff": -0.025887096774193808,
+    "adaptive_cheaper_pct": 45.0,
+    "wilcoxon_p": 0.8092039689931078
+   },
+   "cost": {
+    "median_diff": -1.5817741935483909,
+    "mean_diff": -1.2526935483870976,
+    "adaptive_cheaper_pct": 65.0,
+    "wilcoxon_p": 0.058573296793890506
+   },
+   "random": {
+    "median_diff": -3.1143548387096764,
+    "mean_diff": -3.2745806451612913,
+    "adaptive_cheaper_pct": 70.0,
+    "wilcoxon_p": 0.007013002905356987
+   },
+   "full": {
+    "median_diff": -11.905645161290321,
+    "mean_diff": -11.99775806451613,
+    "adaptive_cheaper_pct": 95.0,
+    "wilcoxon_p": 0.0001318338889828333
+   }
+  },
+  "CKD": {
+   "static": {
+    "median_diff": 1.4526875000000001,
+    "mean_diff": 1.0196250000000002,
+    "adaptive_cheaper_pct": 20.0,
+    "wilcoxon_p": 0.03276824951171875
+   },
+   "eg2": {
+    "median_diff": 1.108625,
+    "mean_diff": 1.46785,
+    "adaptive_cheaper_pct": 20.0,
+    "wilcoxon_p": 0.03623390197753906
+   },
+   "cost": {
+    "median_diff": -2.8453750000000007,
+    "mean_diff": -4.396881250000001,
+    "adaptive_cheaper_pct": 75.0,
+    "wilcoxon_p": 0.01531219482421875
+   },
+   "random": {
+    "median_diff": -9.7749375,
+    "mean_diff": -9.689875000000002,
+    "adaptive_cheaper_pct": 100.0,
+    "wilcoxon_p": 1.9073486328125e-06
+   },
+   "full": {
+    "median_diff": -34.50256250000001,
+    "mean_diff": -33.592775,
+    "adaptive_cheaper_pct": 100.0,
+    "wilcoxon_p": 1.9073486328125e-06
+   }
+  },
+  "Mammography": {
+   "static": {
+    "median_diff": -0.15625,
+    "mean_diff": -0.13663779145077734,
+    "adaptive_cheaper_pct": 60.0,
+    "wilcoxon_p": 0.04970068152466921
+   },
+   "eg2": {
+    "median_diff": -0.234375,
+    "mean_diff": -0.2687607944732296,
+    "adaptive_cheaper_pct": 75.0,
+    "wilcoxon_p": 0.011203567444800439
+   },
+   "cost": {
+    "median_diff": -0.3125,
+    "mean_diff": -0.3109550410189983,
+    "adaptive_cheaper_pct": 75.0,
+    "wilcoxon_p": 0.0007754713604766556
+   },
+   "random": {
+    "median_diff": -1.869791666666666,
+    "mean_diff": -1.8980462003454233,
+    "adaptive_cheaper_pct": 100.0,
+    "wilcoxon_p": 1.9073486328125e-06
+   },
+   "full": {
+    "median_diff": -5.363436420552677,
+    "mean_diff": -5.204319138601036,
+    "adaptive_cheaper_pct": 100.0,
+    "wilcoxon_p": 1.9073486328125e-06
+   }
+  },
+  "Cervical": {
+   "static": {
+    "median_diff": 7.7196382428940495,
+    "mean_diff": 12.004222766217872,
+    "adaptive_cheaper_pct": 15.0,
+    "wilcoxon_p": 0.008903385115881386
+   },
+   "eg2": {
+    "median_diff": 7.588824289405679,
+    "mean_diff": 10.734424724602203,
+    "adaptive_cheaper_pct": 20.0,
+    "wilcoxon_p": 0.011236471025746899
+   },
+   "cost": {
+    "median_diff": -49.674418604651166,
+    "mean_diff": -47.08950938392493,
+    "adaptive_cheaper_pct": 90.0,
+    "wilcoxon_p": 0.00019643672621231134
+   },
+   "random": {
+    "median_diff": -23.32848837209302,
+    "mean_diff": -21.683540731674146,
+    "adaptive_cheaper_pct": 75.0,
+    "wilcoxon_p": 0.006210256590449749
+   },
+   "full": {
+    "median_diff": -63.58139534883722,
+    "mean_diff": -57.72367061063511,
+    "adaptive_cheaper_pct": 90.0,
+    "wilcoxon_p": 0.00019643672621231134
+   }
+  },
+  "PBC": {
+   "static": {
+    "median_diff": -0.7203623188405803,
+    "mean_diff": -0.23164492753623273,
+    "adaptive_cheaper_pct": 65.0,
+    "wilcoxon_p": 0.5458755493164062
+   },
+   "eg2": {
+    "median_diff": 0.026014492753621,
+    "mean_diff": -0.6439057971014497,
+    "adaptive_cheaper_pct": 50.0,
+    "wilcoxon_p": 0.49800872802734375
+   },
+   "cost": {
+    "median_diff": -2.4555797101449315,
+    "mean_diff": -2.8887318840579717,
+    "adaptive_cheaper_pct": 85.0,
+    "wilcoxon_p": 0.0019855499267578125
+   },
+   "random": {
+    "median_diff": -11.090362318840581,
+    "mean_diff": -10.686804347826087,
+    "adaptive_cheaper_pct": 95.0,
+    "wilcoxon_p": 3.814697265625e-06
+   },
+   "full": {
+    "median_diff": -29.453260869565213,
+    "mean_diff": -28.977586956521737,
+    "adaptive_cheaper_pct": 100.0,
+    "wilcoxon_p": 1.9073486328125e-06
+   }
+  },
+  "Biopsy": {
+   "static": {
+    "median_diff": -0.011627906976744207,
+    "mean_diff": 0.25581395348837177,
+    "adaptive_cheaper_pct": 50.0,
+    "wilcoxon_p": 0.7322547101530132
+   },
+   "eg2": {
+    "median_diff": 0.3372093023255811,
+    "mean_diff": 0.3476744186046508,
+    "adaptive_cheaper_pct": 35.0,
+    "wilcoxon_p": 0.38837623596191406
+   },
+   "cost": {
+    "median_diff": -0.5697674418604648,
+    "mean_diff": -0.5627906976744188,
+    "adaptive_cheaper_pct": 60.0,
+    "wilcoxon_p": 0.15364646911621094
+   },
+   "random": {
+    "median_diff": -2.4418604651162794,
+    "mean_diff": -2.2744186046511627,
+    "adaptive_cheaper_pct": 85.0,
+    "wilcoxon_p": 0.000389773883251227
+   },
+   "full": {
+    "median_diff": -18.47674418604651,
+    "mean_diff": -18.46511627906977,
+    "adaptive_cheaper_pct": 100.0,
+    "wilcoxon_p": 1.9073486328125e-06
+   }
+  },
+  "Heart": {
+   "static": {
+    "median_diff": -22.924788251366095,
+    "mean_diff": -10.844893579234988,
+    "adaptive_cheaper_pct": 70.0,
+    "wilcoxon_p": 0.06372261047363281
+   },
+   "eg2": {
+    "median_diff": -23.780083333333337,
+    "mean_diff": -11.531936338797834,
+    "adaptive_cheaper_pct": 70.0,
+    "wilcoxon_p": 0.069580078125
+   },
+   "cost": {
+    "median_diff": -54.59940163934422,
+    "mean_diff": -52.55109002732236,
+    "adaptive_cheaper_pct": 95.0,
+    "wilcoxon_p": 1.33514404296875e-05
+   },
+   "random": {
+    "median_diff": -86.36561475409843,
+    "mean_diff": -89.36640887978142,
+    "adaptive_cheaper_pct": 95.0,
+    "wilcoxon_p": 3.814697265625e-06
+   },
+   "full": {
+    "median_diff": -191.00278688524597,
+    "mean_diff": -213.02445095628423,
+    "adaptive_cheaper_pct": 100.0,
+    "wilcoxon_p": 1.9073486328125e-06
+   }
+  },
+  "Pima": {
+   "static": {
+    "median_diff": -0.07591397164926583,
+    "mean_diff": 0.1859616119174941,
+    "adaptive_cheaper_pct": 60.0,
+    "wilcoxon_p": 0.7561664581298828
+   },
+   "eg2": {
+    "median_diff": -0.010318521347931764,
+    "mean_diff": 0.07287475596299106,
+    "adaptive_cheaper_pct": 55.00000000000001,
+    "wilcoxon_p": 0.7285060882568359
+   },
+   "cost": {
+    "median_diff": -1.2417016806722714,
+    "mean_diff": -1.2324820898056195,
+    "adaptive_cheaper_pct": 85.0,
+    "wilcoxon_p": 2.6702880859375e-05
+   },
+   "random": {
+    "median_diff": -4.988464052287583,
+    "mean_diff": -4.610949749596808,
+    "adaptive_cheaper_pct": 100.0,
+    "wilcoxon_p": 1.9073486328125e-06
+   },
+   "full": {
+    "median_diff": -11.956266870384516,
+    "mean_diff": -12.372063937696291,
+    "adaptive_cheaper_pct": 100.0,
+    "wilcoxon_p": 1.9073486328125e-06
+   }
+  }
+ },
+ "budget": {
+  "Hepatitis": {
+   "adaptive": {
+    "aubc": 0.8212575923292512,
+    "lo": 0.7678781679772603,
+    "hi": 0.8787407777149319
+   },
+   "static": {
+    "aubc": 0.8210420567799398,
+    "lo": 0.770763340493476,
+    "hi": 0.8815249830316741,
+    "diff_vs_adaptive": 0.00021553554931139085,
+    "diff_lo": -0.005896106858057559,
+    "diff_hi": 0.009247365486086291
+   },
+   "eg2": {
+    "aubc": 0.8214492558118531,
+    "lo": 0.7712717427046247,
+    "hi": 0.8834677234162897,
+    "diff_vs_adaptive": -0.00019166348260185224,
+    "diff_lo": -0.006951403252722299,
+    "diff_hi": 0.007442700524135088
+   },
+   "cost": {
+    "aubc": 0.7938800689591107,
+    "lo": 0.7446279464367692,
+    "hi": 0.8462028428757173,
+    "diff_vs_adaptive": 0.027377523370140502,
+    "diff_lo": 0.0065583664290403045,
+    "diff_hi": 0.04427371530579963
+   },
+   "random": {
+    "aubc": 0.7706071441700414,
+    "lo": 0.7258999532437655,
+    "hi": 0.8222784719415596,
+    "diff_vs_adaptive": 0.05065044815920972,
+    "diff_lo": 0.027451374330965794,
+    "diff_hi": 0.07771542991436971
+   }
+  },
+  "CKD": {
+   "adaptive": {
+    "aubc": 0.996912179666081,
+    "lo": 0.9949700463995196,
+    "hi": 0.9986794081437758
+   },
+   "static": {
+    "aubc": 0.9969544066374891,
+    "lo": 0.9948367177645746,
+    "hi": 0.998739432752133,
+    "diff_vs_adaptive": -4.222697140802978e-05,
+    "diff_lo": -0.0005130808888864663,
+    "diff_hi": 0.00047147980468244493
+   },
+   "eg2": {
+    "aubc": 0.9962844209380296,
+    "lo": 0.9942387668336565,
+    "hi": 0.9982061053351743,
+    "diff_vs_adaptive": 0.0006277587280515112,
+    "diff_lo": 0.0002764249392336604,
+    "diff_hi": 0.0010525885889627745
+   },
+   "cost": {
+    "aubc": 0.9917137347598791,
+    "lo": 0.9881765775456797,
+    "hi": 0.9944157157075851,
+    "diff_vs_adaptive": 0.005198444906201931,
+    "diff_lo": 0.002891301918370853,
+    "diff_hi": 0.007729317266520385
+   },
+   "random": {
+    "aubc": 0.9479444146390574,
+    "lo": 0.9419098300986255,
+    "hi": 0.9523854280798548,
+    "diff_vs_adaptive": 0.04896776502702373,
+    "diff_lo": 0.04512528785364112,
+    "diff_hi": 0.0536910429561058
+   }
+  },
+  "Mammography": {
+   "adaptive": {
+    "aubc": 0.7925086930067022,
+    "lo": 0.7711957935475349,
+    "hi": 0.811098070507482
+   },
+   "static": {
+    "aubc": 0.7921743385838961,
+    "lo": 0.7709864804679781,
+    "hi": 0.8108664091981733,
+    "diff_vs_adaptive": 0.0003343544228062138,
+    "diff_lo": -0.0009579253706271523,
+    "diff_hi": 0.0016534219688631776
+   },
+   "eg2": {
+    "aubc": 0.783945839396101,
+    "lo": 0.7628654630389131,
+    "hi": 0.8027580596969652,
+    "diff_vs_adaptive": 0.00856285361060115,
+    "diff_lo": 0.006484609866577354,
+    "diff_hi": 0.011120712915100521
+   },
+   "cost": {
+    "aubc": 0.7924279579583349,
+    "lo": 0.7719021422728713,
+    "hi": 0.811764851644931,
+    "diff_vs_adaptive": 8.073504836738909e-05,
+    "diff_lo": -0.002349673465689139,
+    "diff_hi": 0.0032690572395770515
+   },
+   "random": {
+    "aubc": 0.7428020963492123,
+    "lo": 0.725612619039734,
+    "hi": 0.7572450203519115,
+    "diff_vs_adaptive": 0.049706596657489874,
+    "diff_lo": 0.03835603801545091,
+    "diff_hi": 0.05793463252602395
+   }
+  },
+  "Cervical": {
+   "adaptive": {
+    "aubc": 0.7873249928619529,
+    "lo": 0.7507288014894182,
+    "hi": 0.8191139113672693
+   },
+   "static": {
+    "aubc": 0.7853535658865204,
+    "lo": 0.7445098795787845,
+    "hi": 0.8163924479294595,
+    "diff_vs_adaptive": 0.001971426975432581,
+    "diff_lo": -0.003839639041683601,
+    "diff_hi": 0.008204155090195803
+   },
+   "eg2": {
+    "aubc": 0.784776075390086,
+    "lo": 0.7440398781918385,
+    "hi": 0.8153197239384458,
+    "diff_vs_adaptive": 0.0025489174718670055,
+    "diff_lo": -0.004229003568757375,
+    "diff_hi": 0.009243020906792907
+   },
+   "cost": {
+    "aubc": 0.6946561701313233,
+    "lo": 0.646564352232496,
+    "hi": 0.7443217776378663,
+    "diff_vs_adaptive": 0.0926688227306296,
+    "diff_lo": 0.05940898233197819,
+    "diff_hi": 0.12314949316124457
+   },
+   "random": {
+    "aubc": 0.7258043639471778,
+    "lo": 0.6927814530835096,
+    "hi": 0.7627565238872444,
+    "diff_vs_adaptive": 0.061520628914775104,
+    "diff_lo": 0.04190254572359313,
+    "diff_hi": 0.07991536472974321
+   }
+  },
+  "PBC": {
+   "adaptive": {
+    "aubc": 0.8635138227534558,
+    "lo": 0.8261073398633605,
+    "hi": 0.8977059634502199
+   },
+   "static": {
+    "aubc": 0.8611629610176675,
+    "lo": 0.8233759562598182,
+    "hi": 0.8954924338236341,
+    "diff_vs_adaptive": 0.0023508617357882815,
+    "diff_lo": 0.00032104506245528855,
+    "diff_hi": 0.004997984291801233
+   },
+   "eg2": {
+    "aubc": 0.8646554905100037,
+    "lo": 0.8248578167682415,
+    "hi": 0.899424381898753,
+    "diff_vs_adaptive": -0.0011416677565478936,
+    "diff_lo": -0.004549738112466686,
+    "diff_hi": 0.0020974854081708943
+   },
+   "cost": {
+    "aubc": 0.8516266075208373,
+    "lo": 0.8147495016713745,
+    "hi": 0.8888689501331428,
+    "diff_vs_adaptive": 0.011887215232618363,
+    "diff_lo": 0.005757993957791177,
+    "diff_hi": 0.01831290858555029
+   },
+   "random": {
+    "aubc": 0.8107932917577774,
+    "lo": 0.7799393402124911,
+    "hi": 0.8421082104293169,
+    "diff_vs_adaptive": 0.05272053099567829,
+    "diff_lo": 0.041779971957420926,
+    "diff_hi": 0.0633146617317676
+   }
+  },
+  "Biopsy": {
+   "adaptive": {
+    "aubc": 0.9537250513061549,
+    "lo": 0.9468620029571755,
+    "hi": 0.9593669762029253
+   },
+   "static": {
+    "aubc": 0.9543640243583528,
+    "lo": 0.9477959129391852,
+    "hi": 0.9597641339617177,
+    "diff_vs_adaptive": -0.0006389730521976047,
+    "diff_lo": -0.0017357559655763021,
+    "diff_hi": 0.0005443741475642267
+   },
+   "eg2": {
+    "aubc": 0.9545219690584239,
+    "lo": 0.9485482587750598,
+    "hi": 0.9604923396140563,
+    "diff_vs_adaptive": -0.0007969177522688266,
+    "diff_lo": -0.0017724534676665572,
+    "diff_hi": 0.0006684364690943688
+   },
+   "cost": {
+    "aubc": 0.9445969185692294,
+    "lo": 0.938117385067322,
+    "hi": 0.9513951360406013,
+    "diff_vs_adaptive": 0.009128132736925653,
+    "diff_lo": 0.0055509261740732205,
+    "diff_hi": 0.013044413576933131
+   },
+   "random": {
+    "aubc": 0.9473299320741314,
+    "lo": 0.9394853096797462,
+    "hi": 0.9528736915785398,
+    "diff_vs_adaptive": 0.006395119232023539,
+    "diff_lo": 0.003700036377982438,
+    "diff_hi": 0.008991470167567513
+   }
+  },
+  "Heart": {
+   "adaptive": {
+    "aubc": 0.8424788362697283,
+    "lo": 0.8047971235851961,
+    "hi": 0.8786192918105394
+   },
+   "static": {
+    "aubc": 0.8369435976417826,
+    "lo": 0.7931708489016996,
+    "hi": 0.875494325441608,
+    "diff_vs_adaptive": 0.005535238627945734,
+    "diff_lo": -0.0001560991050491761,
+    "diff_hi": 0.011416801438103901
+   },
+   "eg2": {
+    "aubc": 0.8372770911266512,
+    "lo": 0.7937335134257745,
+    "hi": 0.87611100109872,
+    "diff_vs_adaptive": 0.005201745143077147,
+    "diff_lo": -0.0006366574165142802,
+    "diff_hi": 0.01117169253931068
+   },
+   "cost": {
+    "aubc": 0.8272124788385533,
+    "lo": 0.7873140207951077,
+    "hi": 0.868948650121047,
+    "diff_vs_adaptive": 0.015266357431174984,
+    "diff_lo": 0.003076283915709391,
+    "diff_hi": 0.028397931953123026
+   },
+   "random": {
+    "aubc": 0.7960162768119862,
+    "lo": 0.7636753833510989,
+    "hi": 0.826277650212609,
+    "diff_vs_adaptive": 0.046462559457742136,
+    "diff_lo": 0.030296161027982597,
+    "diff_hi": 0.0651967507808172
+   }
+  },
+  "Pima": {
+   "adaptive": {
+    "aubc": 0.7860300344142884,
+    "lo": 0.7592040995790958,
+    "hi": 0.8126009685287021
+   },
+   "static": {
+    "aubc": 0.7877896259953412,
+    "lo": 0.7604021427633928,
+    "hi": 0.8146789727140434,
+    "diff_vs_adaptive": -0.0017595915810527643,
+    "diff_lo": -0.0034672049781510673,
+    "diff_hi": 2.0746932614312753e-05
+   },
+   "eg2": {
+    "aubc": 0.785532230672577,
+    "lo": 0.7592903247912027,
+    "hi": 0.8117864810788018,
+    "diff_vs_adaptive": 0.0004978037417114195,
+    "diff_lo": -0.0013977922779951578,
+    "diff_hi": 0.002516865037497588
+   },
+   "cost": {
+    "aubc": 0.7736852845252703,
+    "lo": 0.7480238630483226,
+    "hi": 0.800374913547476,
+    "diff_vs_adaptive": 0.012344749889018097,
+    "diff_lo": 0.008342758961162548,
+    "diff_hi": 0.016616450552783373
+   },
+   "random": {
+    "aubc": 0.7360465817939154,
+    "lo": 0.7112125417103101,
+    "hi": 0.759803827150248,
+    "diff_vs_adaptive": 0.04998345262037302,
+    "diff_lo": 0.04144358298336033,
+    "diff_hi": 0.057883516839556136
+   }
+  }
+ },
+ "extra": {
+  "Hepatitis": {
+   "complete_case": {
+    "adaptive": {
+     "n": 80,
+     "cost_pct": 65.4302873429502,
+     "silent": 2.8125
+    },
+    "full": {
+     "n": 80,
+     "cost_pct": 100.0,
+     "silent": 2.1875
+    }
+   },
+   "depth": {
+    "0-0": {
+     "n": 0,
+     "error_pct": null
+    },
+    "1-2": {
+     "n": 28,
+     "error_pct": 3.571428571428571
+    },
+    "3-5": {
+     "n": 132,
+     "error_pct": 5.303030303030303
+    },
+    "6-99": {
+     "n": 125,
+     "error_pct": 8.0
+    }
+   },
+   "silent_fn_among_pos_pct": 13.28125,
+   "silent_fp_among_neg_pct": 0.20325203252032523,
+   "deferred_pct": 54.03225806451613,
+   "deferred_pos_share": 31.94029850746269,
+   "prevalence": 20.64516129032258,
+   "cost_perturb": {
+    "adaptive_pct_median": 67.4048816800966,
+    "adaptive_pct_p2_5": 43.48264091791733,
+    "adaptive_pct_p97_5": 100.0,
+    "adaptive_cheaper_than_cost_order_pct": 58.199999999999996,
+    "adaptive_cheaper_than_static_pct": 37.0,
+    "adaptive_cheaper_than_full_pct": 95.8
+   }
+  },
+  "CKD": {
+   "complete_case": {
+    "adaptive": {
+     "n": 158,
+     "cost_pct": 22.46945192833526,
+     "silent": 0.0
+    },
+    "full": {
+     "n": 158,
+     "cost_pct": 100.0,
+     "silent": 0.0
+    }
+   },
+   "depth": {
+    "0-0": {
+     "n": 0,
+     "error_pct": null
+    },
+    "1-2": {
+     "n": 812,
+     "error_pct": 0.24630541871921183
+    },
+    "3-5": {
+     "n": 603,
+     "error_pct": 0.0
+    },
+    "6-99": {
+     "n": 122,
+     "error_pct": 0.0
+    }
+   },
+   "silent_fn_among_pos_pct": 0.2,
+   "silent_fp_among_neg_pct": 0.0,
+   "deferred_pct": 3.9375,
+   "deferred_pos_share": 96.82539682539682,
+   "prevalence": 62.5,
+   "cost_perturb": {
+    "adaptive_pct_median": 20.48398694489915,
+    "adaptive_pct_p2_5": 4.720715928538774,
+    "adaptive_pct_p97_5": 41.28789783550727,
+    "adaptive_cheaper_than_cost_order_pct": 69.39999999999999,
+    "adaptive_cheaper_than_static_pct": 27.0,
+    "adaptive_cheaper_than_full_pct": 100.0
+   }
+  },
+  "Mammography": {
+   "complete_case": {
+    "adaptive": {
+     "n": 831,
+     "cost_pct": 64.14335138387484,
+     "silent": 7.551143200962695
+    },
+    "full": {
+     "n": 831,
+     "cost_pct": 100.0,
+     "silent": 7.912154031287605
+    }
+   },
+   "depth": {
+    "0-0": {
+     "n": 0,
+     "error_pct": null
+    },
+    "1-2": {
+     "n": 1666,
+     "error_pct": 11.344537815126051
+    },
+    "3-5": {
+     "n": 474,
+     "error_pct": 17.51054852320675
+    },
+    "6-99": {
+     "n": 0,
+     "error_pct": null
+    }
+   },
+   "silent_fn_among_pos_pct": 9.382022471910112,
+   "silent_fp_among_neg_pct": 5.087209302325581,
+   "deferred_pct": 44.32882414151925,
+   "deferred_pos_share": 56.866197183098585,
+   "prevalence": 46.30593132154006,
+   "cost_perturb": {
+    "adaptive_pct_median": 65.64546773742647,
+    "adaptive_pct_p2_5": 50.80583631376817,
+    "adaptive_pct_p97_5": 79.64418489077057,
+    "adaptive_cheaper_than_cost_order_pct": 67.80000000000001,
+    "adaptive_cheaper_than_static_pct": 59.199999999999996,
+    "adaptive_cheaper_than_full_pct": 100.0
+   }
+  },
+  "Cervical": {
+   "complete_case": {
+    "adaptive": {
+     "n": 59,
+     "cost_pct": 70.47221736851301,
+     "silent": 2.11864406779661
+    },
+    "full": {
+     "n": 59,
+     "cost_pct": 100.0,
+     "silent": 1.694915254237288
+    }
+   },
+   "depth": {
+    "0-0": {
+     "n": 0,
+     "error_pct": null
+    },
+    "1-2": {
+     "n": 381,
+     "error_pct": 1.574803149606299
+    },
+    "3-5": {
+     "n": 1224,
+     "error_pct": 1.2254901960784315
+    },
+    "6-99": {
+     "n": 576,
+     "error_pct": 1.215277777777778
+    }
+   },
+   "silent_fn_among_pos_pct": 12.727272727272727,
+   "silent_fp_among_neg_pct": 0.0,
+   "deferred_pct": 36.45104895104895,
+   "deferred_pos_share": 15.267785771382894,
+   "prevalence": 6.41025641025641,
+   "cost_perturb": {
+    "adaptive_pct_median": 69.77862708004501,
+    "adaptive_pct_p2_5": 33.84301054202739,
+    "adaptive_pct_p97_5": 100.0,
+    "adaptive_cheaper_than_cost_order_pct": 90.0,
+    "adaptive_cheaper_than_static_pct": 17.4,
+    "adaptive_cheaper_than_full_pct": 91.0
+   }
+  },
+  "PBC": {
+   "complete_case": {
+    "adaptive": {
+     "n": 234,
+     "cost_pct": 46.40708186255665,
+     "silent": 5.128205128205128
+    },
+    "full": {
+     "n": 234,
+     "cost_pct": 100.0,
+     "silent": 5.769230769230769
+    }
+   },
+   "depth": {
+    "0-0": {
+     "n": 0,
+     "error_pct": null
+    },
+    "1-2": {
+     "n": 253,
+     "error_pct": 7.114624505928854
+    },
+    "3-5": {
+     "n": 507,
+     "error_pct": 8.678500986193294
+    },
+    "6-99": {
+     "n": 168,
+     "error_pct": 10.714285714285714
+    }
+   },
+   "silent_fn_among_pos_pct": 16.0,
+   "silent_fp_among_neg_pct": 1.6326530612244898,
+   "deferred_pct": 32.7536231884058,
+   "deferred_pos_share": 46.017699115044245,
+   "prevalence": 28.985507246376812,
+   "cost_perturb": {
+    "adaptive_pct_median": 49.16502043320472,
+    "adaptive_pct_p2_5": 31.098469820735026,
+    "adaptive_pct_p97_5": 68.75118208075867,
+    "adaptive_cheaper_than_cost_order_pct": 80.80000000000001,
+    "adaptive_cheaper_than_static_pct": 60.6,
+    "adaptive_cheaper_than_full_pct": 100.0
+   }
+  },
+  "Biopsy": {
+   "complete_case": {
+    "adaptive": {
+     "n": 629,
+     "cost_pct": 31.226815050344463,
+     "silent": 2.1860095389507155
+    },
+    "full": {
+     "n": 629,
+     "cost_pct": 100.0,
+     "silent": 2.146263910969793
+    }
+   },
+   "depth": {
+    "0-0": {
+     "n": 0,
+     "error_pct": null
+    },
+    "1-2": {
+     "n": 1684,
+     "error_pct": 1.5439429928741093
+    },
+    "3-5": {
+     "n": 628,
+     "error_pct": 4.617834394904459
+    },
+    "6-99": {
+     "n": 129,
+     "error_pct": 6.2015503875969
+    }
+   },
+   "silent_fn_among_pos_pct": 3.2327586206896552,
+   "silent_fp_among_neg_pct": 1.9975786924939467,
+   "deferred_pct": 5.387596899224807,
+   "deferred_pos_share": 61.15107913669065,
+   "prevalence": 35.968992248062015,
+   "cost_perturb": {
+    "adaptive_pct_median": 29.180714547307684,
+    "adaptive_pct_p2_5": 10.223779329625055,
+    "adaptive_pct_p97_5": 68.02602899035202,
+    "adaptive_cheaper_than_cost_order_pct": 52.800000000000004,
+    "adaptive_cheaper_than_static_pct": 47.0,
+    "adaptive_cheaper_than_full_pct": 100.0
+   }
+  },
+  "Heart": {
+   "complete_case": {
+    "adaptive": {
+     "n": 296,
+     "cost_pct": 64.39821460264213,
+     "silent": 6.081081081081082
+    },
+    "full": {
+     "n": 296,
+     "cost_pct": 99.99999999999999,
+     "silent": 6.503378378378379
+    }
+   },
+   "depth": {
+    "0-0": {
+     "n": 0,
+     "error_pct": null
+    },
+    "1-2": {
+     "n": 43,
+     "error_pct": 9.30232558139535
+    },
+    "3-5": {
+     "n": 139,
+     "error_pct": 10.79136690647482
+    },
+    "6-99": {
+     "n": 512,
+     "error_pct": 10.3515625
+    }
+   },
+   "silent_fn_among_pos_pct": 8.152173913043478,
+   "silent_fp_among_neg_pct": 4.090909090909091,
+   "deferred_pct": 42.73927392739274,
+   "deferred_pos_share": 44.4015444015444,
+   "prevalence": 45.54455445544555,
+   "cost_perturb": {
+    "adaptive_pct_median": 66.86620768726915,
+    "adaptive_pct_p2_5": 34.82518828589907,
+    "adaptive_pct_p97_5": 84.10574108962963,
+    "adaptive_cheaper_than_cost_order_pct": 92.4,
+    "adaptive_cheaper_than_static_pct": 69.19999999999999,
+    "adaptive_cheaper_than_full_pct": 100.0
+   }
+  },
+  "Pima": {
+   "complete_case": {
+    "adaptive": {
+     "n": 392,
+     "cost_pct": 59.98654796079641,
+     "silent": 7.716836734693877
+    },
+    "full": {
+     "n": 392,
+     "cost_pct": 100.0,
+     "silent": 7.461734693877552
+    }
+   },
+   "depth": {
+    "0-0": {
+     "n": 0,
+     "error_pct": null
+    },
+    "1-2": {
+     "n": 753,
+     "error_pct": 10.358565737051793
+    },
+    "3-5": {
+     "n": 730,
+     "error_pct": 15.890410958904111
+    },
+    "6-99": {
+     "n": 154,
+     "error_pct": 17.532467532467532
+    }
+   },
+   "silent_fn_among_pos_pct": 15.485074626865671,
+   "silent_fp_among_neg_pct": 2.75,
+   "deferred_pct": 46.71223958333333,
+   "deferred_pos_share": 48.153310104529616,
+   "prevalence": 34.89583333333333,
+   "cost_perturb": {
+    "adaptive_pct_median": 65.83848133555541,
+    "adaptive_pct_p2_5": 51.93715901910463,
+    "adaptive_pct_p97_5": 75.31693330189064,
+    "adaptive_cheaper_than_cost_order_pct": 89.2,
+    "adaptive_cheaper_than_static_pct": 54.800000000000004,
+    "adaptive_cheaper_than_full_pct": 100.0
+   }
+  },
+  "protocol_freq": {
+   "Hepatitis": {
+    "age": 97.3,
+    "histology": 79.4,
+    "ascites": 78.4,
+    "bilirubin": 77.1,
+    "fatigue": 73.9,
+    "spiders": 71.6,
+    "malaise": 67.9,
+    "varices": 63.9,
+    "albumin": 62.4,
+    "steroid": 61.8,
+    "spleen_palpable": 61.0,
+    "sex": 60.3,
+    "antiviral": 57.3,
+    "sgot": 56.6,
+    "anorexia": 55.3,
+    "liver_big": 54.4,
+    "liver_firm": 51.3,
+    "alk_phosphate": 50.2,
+    "protime": 37.1
+   },
+   "CKD": {
+    "urine_dipstick": 86.6,
+    "history": 63.7,
+    "haemoglobin": 27.9,
+    "creatinine": 24.4,
+    "bp": 23.0,
+    "pcv": 18.5,
+    "urine_microscopy": 15.1,
+    "electrolytes": 12.2,
+    "glucose": 9.4,
+    "urea": 6.9,
+    "rbc_count": 5.8,
+    "wbc_count": 3.0
+   },
+   "Mammography": {
+    "age": 99.5,
+    "shape": 71.3,
+    "margin": 65.8,
+    "density": 42.6
+   },
+   "Cervical": {
+    "demographics": 98.9,
+    "schiller": 93.3,
+    "hormonal_contraception": 79.3,
+    "smoking": 63.7,
+    "std_panel": 57.0,
+    "cytology": 55.8,
+    "colposcopy_hinselmann": 54.0,
+    "iud": 51.1
+   }
+  }
+ }
+}
