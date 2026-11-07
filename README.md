@@ -1,4 +1,4 @@
-# Shortcut-aware benchmark for cost-efficient sequential diagnostic testing
+# A Retrospective Benchmark of Sequential Diagnostic Test Acquisition on Public Clinical Datasets with Missingness Audits and Learn-then-Test Risk Control
 
 One file, `dx_pipeline.py`, reproduces every number, table and figure in the manuscript, including the analyses added
 in revision. This is a benchmarking and methodology study on retrospective public data. All costs are modelled, and it
